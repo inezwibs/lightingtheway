@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Lighting The Way</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Login_Signup">Not sure what to do next?</string>
+    <string name="FindHelp">Find Resources</string>
+    <string name="welcome">Welcome... \nWe are here to help\nlight the way forward</string>
+    <string name="resources">
+        <p>Who can file? </p>
+    </string>
+    <string name="resourcesnote">
+        <p>Anyone who believes someone has been discriminated against \nbased on sex, race, color, disability or age. </p>
+    </string>
+    <string name="results">Results</string>
+    <string name="search">Search</string>
+
+    <string name="makeanonreport">Make an Anonymous Report</string>
+    <string name="makereport">Make a report</string>
+    <string name="titleixcontacts"><![CDATA[
+    SF State Title IX Coordinator:
+    Luoluo Hong
+    Vice President for Student Affairs & Enrollment Management
+    Title IX Coordinator & DHR Administrator
+    Hours: Mon-Fri, 9am-6pm
+    (415) 338-7313
+    Email: vpsaem@sfsu.edu]]></string>
+    <string name="contacttitleix">Contact</string>
+    <string name="emailtitleix">Email Title IX Coordinator</string>
+    <string name="visittitleixpage">Visit the Title IX page</string>
+    <string name="title_activity_target_page">TargetActivityPage</string>
+    <string name="calltitleixcontact">Call Title IX Coordinator</string>
+    <string name="googlemaps">Find Non Profits \n Near SFSU </string>
+    <string name="findtitleixhelp">Find Title IX Contacts</string>
+    <string name="target">This is the label</string>
+    <string name="name">Name</string>
+    <string name="talktosomeone">Talk to someone</string>
+    <string name="intent_message">messsage passed from other fragment</string>
+    <string name="gobacktoMain">Go Back to Main Page</string>
+    <string name="title_activity_results">ResultsActivity</string>
+</resources>

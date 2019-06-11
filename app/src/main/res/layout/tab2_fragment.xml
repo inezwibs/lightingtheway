@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tab2Fragment">
+
+    <TextView
+        android:id="@+id/textTab2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="464dp"
+        android:text="@string/resources"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textTab3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="360dp"
+        android:text="@string/resourcesnote"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/makeAnonReport"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="170dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="68dp"
+        android:background="@android:color/holo_purple"
+        android:fontFamily="sans-serif-medium"
+        android:radius="4dp"
+        android:text="@string/makereport"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+
+        app:backgroundTint="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/makeReport"
+
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="170dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginBottom="215dp"
+        android:background="@android:color/holo_purple"
+        android:radius="4dp"
+        android:text="@string/makeanonreport"
+
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+
+        app:backgroundTint="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/btnTEST2c"
+
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="170dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="215dp"
+        android:background="@android:color/holo_purple"
+        android:radius="4dp"
+        android:text="@string/googlemaps"
+        android:textColor="@android:color/white"
+
+        android:textSize="20dp"
+
+        app:backgroundTint="@android:color/holo_purple" />
+
+
+    <Button
+        android:id="@+id/findCouseling"
+
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="170dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginBottom="68dp"
+        android:background="@android:color/holo_purple"
+        android:radius="4dp"
+        android:text="@string/talktosomeone"
+        android:textColor="@android:color/white"
+
+        android:textSize="20dp"
+
+        app:backgroundTint="@android:color/holo_purple" />
+
+
+</RelativeLayout>
+
+<!--
+<EditText
+android:id="@+id/editText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentStart="true"
+android:layout_alignParentLeft="true"
+android:layout_alignParentEnd="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentBottom="true"
+android:layout_marginStart="91dp"
+android:layout_marginLeft="91dp"
+android:layout_marginTop="40dp"
+android:layout_marginEnd="107dp"
+android:layout_marginRight="107dp"
+android:layout_marginBottom="401dp"
+android:ems="10"
+android:inputType="textMultiLine"
+android:text="@string/FindHelp" />
+-->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tab1Fragment">
+
+    <fragment
+        android:id="@+id/tab1Fragment"
+        android:name="com.example.lightupapp2.Tab1Fragment"
+        android:label="tab1_fragment"
+        tools:layout="@layout/tab1_fragment" >
+        <action
+            android:id="@+id/action_tab1Fragment_to_tab2Fragment"
+            app:popUpTo="@id/tab2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab2Fragment"
+        android:name="com.example.lightupapp2.Tab2Fragment"
+        android:label="tab2_fragment"
+        tools:layout="@layout/tab2_fragment" >
+        <action
+            android:id="@+id/action_tab2Fragment_to_tab3Fragment"
+            app:popUpTo="@id/tab3Fragment" />
+        <action
+            android:id="@+id/action_tab2Fragment_to_tab4Fragment"
+            app:popUpTo="@id/tab4Fragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/tab3Fragment"
+        android:name="com.example.lightupapp2.Tab3Fragment"
+        android:label="tab3_fragment"
+        tools:layout="@layout/tab3_fragment" >
+        <action
+            android:id="@+id/action_tab3Fragment_to_tab4Fragment"
+            app:popUpTo="@id/tab4Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tab4Fragment"
+        android:name="com.example.lightupapp2.Tab4Fragment"
+        android:label="tab4_fragment"
+        tools:layout="@layout/tab4_fragment" >
+        <action
+            android:id="@+id/action_tab4Fragment_to_tab1Fragment"
+            app:popUpTo="@id/tab1Fragment" />
+    </fragment>
+</navigation>
